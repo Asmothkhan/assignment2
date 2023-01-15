@@ -3,6 +3,7 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
+  
 
 }
 
@@ -15,9 +16,11 @@ position: absolute;
 }
 .header{
     display: flex;
+ 
     justify-content: space-around;
     align-items: center;
     padding: 50px;
+
     
 
 
@@ -56,10 +59,86 @@ button{
    color: white;
    
 }
-.banner{
+
+.banner-image img{
     width: 1440px;
 height: 700px;
-position: absolute;
+position: relative;
 top: 700px;
 left: 100px;
+
+}
+/* Feature Style */
+.quick-list{
+    margin-top: 800px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+
+
+    
+    
+   
+    
+}
+.feature-images{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-left: 300px;
+ 
+}
+.feature-image{
+        Width:342px;
+        Height: 342px;
+   
+        padding: 10px;
+}
+.feature-detail{
+        width: 537px;
+    height: 304px;
+    padding-top: 150px;
+   
+}
+.feature-title{
+    font-size: 45px;
+}
+.quick{
+    color: #727272;
+}
+.features{
+    color: #FF900E;
+}
+.feature-description{
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+}
+
+
+/* Features Will Styels */
+#features{
+    margin-top: 280px;
+    margin-left: 90px;
+    width: 1440px;
+height: 1059px;
+}
+.features-title{
+    width: 586px;
+height: 982px;
+}
+article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.features-will{
+    width: 586px;
+height: 1001px;
+}
+.features-will-image{
+    width: 800px;
+height: 1059px;
+}
+.common-div{
+    padding: 30px;
+    margin-top: 20px;
 }
