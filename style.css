@@ -40,6 +40,10 @@ position: absolute;
     font-size: 18px;
     padding: 20px;
     text-decoration: none;
+    
+}
+.nav-bar{
+    margin-left:0;
 }
 .decription-title{
 
@@ -79,12 +83,7 @@ left: 100px;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 40px;
-
-
-    
-    
-   
-    
+    margin-left: 100px;    
 }
 
 .image-section{
@@ -128,7 +127,7 @@ left: 100px;
 /* Features Will Styels */
 #features{
     margin-top: 280px;
-    margin-left: 240px;
+    margin-left: 80px;
     width: 1440px;
 height: 1059px;
 }
@@ -189,7 +188,7 @@ height: 1001px;
      -------------- */
 #fact{
     width: 542px;
-    margin-left: 240px;
+    margin-left: 80px;
     margin-top: 130px;
 }
 .fact-title{
@@ -204,9 +203,9 @@ height: 1001px;
     display: flex;
    margin-top: 100px;
   
-    margin-left: 350px;
+    margin-left: 120px;
     align-items: center;
-   column-gap: 50px;
+   column-gap: 120px;
 
    }
    .icon{
@@ -232,7 +231,7 @@ height: 1001px;
             width: 542px;
             height: 129px;
             text-align: center;
-            margin-left: 689px;
+            margin-left: 420px;
             margin-top: 180px;
             font-size: 45px;
         
@@ -245,12 +244,13 @@ height: 1001px;
           ------------ */
           .logo{
             display: flex;
-            margin-left: 140px;
+            margin: left -10px;
             margin-top: 50px;
+            justify-content: space-between;
            
           }
           .sponsore-logo img{
-            margin-left: 155px;
+            margin-left:100px;
             
           }
           /* ----------
@@ -263,7 +263,7 @@ height: 1001px;
                 height: 80px;
                 text-align: center;
                 margin-top: 130px;
-                margin-left: 500px;
+                margin-left: 300px;
             }
             .footer-section .content{
                 padding-top: 30px;
@@ -319,7 +319,7 @@ height: 1001px;
             margin-left: 300px;
           }
           .feature-detail{
-            margin-left: 400px;
+            margin-left: 450px;
           }
           
 
