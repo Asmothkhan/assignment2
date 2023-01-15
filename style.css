@@ -86,6 +86,11 @@ left: 100px;
    
     
 }
+
+.image-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .feature-images{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
