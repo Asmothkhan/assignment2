@@ -263,4 +263,103 @@ height: 1001px;
             .footer-section .content{
                 padding-top: 30px;
             }
-        
+
+            @media screen and (max-width:688px) {
+
+                .header{
+                    
+                    flex-direction: column;
+                    width: 100%;
+                    text-align: center;
+                    
+                }
+                .nav-bar a{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    background-color: pink;
+                    margin: 4px;
+                   text-align: center;
+                   
+
+                }
+                .header-description{
+                  display: flex;
+                  flex-direction: column;
+                  text-align: center;
+                  margin-left: 120px;
+              
+            }
+            .banner-image img{
+                margin-top: 300px;
+                text-align: center;
+            }
+          .feature-detail{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin-left: 70px;
+           
+           
+          }
+          .image-section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 500px;
+          }
+          .quick-list{
+            display: flex;
+            flex-direction: column;
+            margin-left: 300px;
+          }
+          .feature-detail{
+            margin-left: 400px;
+          }
+          
+
+         
+        article{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-left: 450px;
+        }
+        .features-will-image{
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+            position: relative;
+            margin-left: -11px;
+        }
+    #btn{
+       margin-top: 50px;
+       margin-left:550px;
+    }
+    #fact{
+        margin-top: 1350px;
+        margin-left: 800px;
+    }
+    .icons{
+        flex-direction: column;
+        width: auto;
+        row-gap: 20px;
+        text-align: center;
+        margin-left: 950px;
+    }
+    .sponsore{
+        width: 100%;
+       text-align: left;
+       margin-left: 750px;
+    }
+    .logo{
+        flex-direction: column;
+        text-align: center;
+        row-gap: 40px;
+        margin-left: 700px;
+    }
+    .footer-section{
+        text-align: center;
+        margin-left: 500px;
+    }
+    }
