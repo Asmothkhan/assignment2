@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Shalimar&family=Work+Sans:wght@700&display=swap');
 
-
+/*------------
+ Common Styles
+ -------------- */
 body{
     font-family: 'Work Sans', sans-serif;
-  
-
+}
+.content{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #727272;
 }
 
 
@@ -118,7 +123,7 @@ left: 100px;
 /* Features Will Styels */
 #features{
     margin-top: 280px;
-    margin-left: 90px;
+    margin-left: 240px;
     width: 1440px;
 height: 1059px;
 }
@@ -134,11 +139,128 @@ article{
     width: 586px;
 height: 1001px;
 }
-.features-will-image{
-    width: 800px;
-height: 1059px;
+.feature-will-div{
+    width: 468px;
+    height: 106px;
+    border-left:5px solid #FF900E;
+    padding-left:20px ;
+
+    
+}
+.features-will-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.features-will-image img{
+    width: 708px;
+    height: 1050px;
 }
 .common-div{
     padding: 30px;
     margin-top: 20px;
+    background: white;
+    box-shadow: 0px 4px 30px 0px rgb(240, 236, 236);
 }
+.div-title{
+    font-size: 20px;
+}
+#btn{
+   
+
+    margin-top: -100px;
+    margin-left: 600px;
+    
+}
+#btn h2{
+   
+    width: 300px;
+    font-size: 65px;
+    margin: 0 auto;
+    padding: 4px;
+}
+
+/* ------------
+     Facts Styles
+     -------------- */
+#fact{
+    width: 542px;
+    margin-left: 240px;
+    margin-top: 130px;
+}
+.fact-title{
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+/* -----------------
+   Icon Styles
+   --------------- */
+
+   .icons{
+    display: flex;
+   margin-top: 100px;
+  
+    margin-left: 350px;
+    align-items: center;
+   column-gap: 50px;
+
+   }
+   .icon{
+    border: 1px solid #FF900E; 
+    border-radius: 10px;
+   left: 150px;
+    width:241; 
+    
+    text-align: center;
+    padding: 45px 35px;
+   }
+   
+  
+   .number{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+   }
+   /* -----------
+    sponsore style
+    ---------------- */
+        .sponsore{
+            width: 542px;
+            height: 129px;
+            text-align: center;
+            margin-left: 689px;
+            margin-top: 180px;
+            font-size: 45px;
+        
+        }
+        .sponsore-title{
+            margin-bottom: 20px;
+        }
+        /* ----------
+          Logo styles
+          ------------ */
+          .logo{
+            display: flex;
+            margin-left: 140px;
+            margin-top: 50px;
+           
+          }
+          .sponsore-logo img{
+            margin-left: 155px;
+            
+          }
+          /* ----------
+            Footer styles
+            ------------ */
+            .footer-section{
+                background-color: 
+                #FFF4E7;
+                width: 1000px;
+                height: 80px;
+                text-align: center;
+                margin-top: 130px;
+                margin-left: 500px;
+            }
+            .footer-section .content{
+                padding-top: 30px;
+            }
+        
